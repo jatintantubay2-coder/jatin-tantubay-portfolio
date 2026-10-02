@@ -1,0 +1,21 @@
+JATIN TANTUBAY — NEW GITHUB PAGES SITE
+
+This package is ready to use as the contents of a NEW GitHub repository.
+
+IMPORTANT:
+1. Create a NEW empty GitHub repository.
+2. Extract this ZIP.
+3. Upload ALL extracted files/folders to the ROOT of the new repository.
+4. Make sure index.html is directly in the repository root.
+5. Do NOT upload this ZIP file itself.
+6. Enable GitHub Pages: Settings > Pages > Deploy from a branch > main > / (root).
+
+Required root structure:
+index.html
+profile_transparent.png
+jatin_tantubay_portfolio_qr.png
+projects/index.html
+automation/index.html
+skills/index.html
+
+The root index.html is the HOME page. projects/index.html is only the Projects page.

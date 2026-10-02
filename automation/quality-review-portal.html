@@ -1,0 +1,237 @@
+<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <meta content="Jatin Tantubay — AI Data, LLM, Computer Vision, LiDAR, ADAS, Automation and Operations Team Lead." name="description"/>
+  <title>
+   Task Quality Review Portal | Jatin Tantubay
+  </title>
+  <style>
+   :root{--bg:#050a12;--bg2:#08111d;--panel:rgba(10,20,34,.88);--text:#f6f9ff;--muted:#9aa9bc;--line:rgba(139,180,220,.18);--blue:#2f9cff;--cyan:#48d7ff;--green:#55e6b1;--max:1180px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 80% 0,rgba(25,102,170,.24),transparent 28%),radial-gradient(circle at 10% 40%,rgba(0,214,255,.08),transparent 22%),var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6}a{color:inherit;text-decoration:none}.wrap{width:min(var(--max),calc(100% - 40px));margin:auto}.nav{position:sticky;top:0;z-index:100;background:rgba(5,10,18,.76);backdrop-filter:blur(18px);border-bottom:1px solid rgba(255,255,255,.07)}.navin{height:70px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:900;font-size:21px}.brand i{color:var(--cyan);font-style:normal}.navlinks{display:flex;gap:22px;font-size:13px;color:#aebbd0}.navlinks a:hover,.navlinks .active{color:#fff}.hero{padding:88px 0 60px;position:relative;overflow:hidden}.heroGrid{display:grid;grid-template-columns:1.05fr .95fr;gap:36px;align-items:center}.eyebrow,.kicker{display:inline-flex;gap:9px;align-items:center;color:#cfeeff;font-size:12px;font-weight:800;letter-spacing:.1em;text-transform:uppercase}.eyebrow{border:1px solid rgba(72,215,255,.25);background:rgba(72,215,255,.06);padding:7px 12px;border-radius:999px}.dot{width:7px;height:7px;border-radius:50%;background:var(--cyan);box-shadow:0 0 16px var(--cyan)}h1{font-size:clamp(46px,6vw,82px);line-height:.98;letter-spacing:-.06em;margin:20px 0}h1 span,h2 span{color:var(--cyan)}h2{font-size:clamp(32px,4vw,52px);line-height:1.05;letter-spacing:-.04em;margin:10px 0 14px}.lead{font-size:19px;color:#d1dbea;max-width:720px}.muted{color:var(--muted)}.actions{display:flex;flex-wrap:wrap;gap:10px;margin:24px 0}.btn{display:inline-flex;align-items:center;gap:8px;padding:11px 15px;border:1px solid var(--line);border-radius:12px;background:rgba(255,255,255,.035);font-weight:750;font-size:13px}.btn:hover{border-color:rgba(72,215,255,.5);transform:translateY(-1px)}.btn.primary{background:linear-gradient(135deg,#1487e8,#38cfff);color:#03101a;border:0}.section{padding:78px 0}.grid{display:grid;gap:16px}.grid3{grid-template-columns:repeat(3,1fr)}.grid2{grid-template-columns:repeat(2,1fr)}.card{background:linear-gradient(180deg,rgba(14,27,44,.9),rgba(7,15,26,.9));border:1px solid var(--line);border-radius:18px;padding:24px;box-shadow:0 20px 70px rgba(0,0,0,.18)}.card:hover{border-color:rgba(72,215,255,.34);transform:translateY(-2px)}.card h3{margin:8px 0 8px;font-size:22px}.tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:15px}.tag{font-size:11px;border:1px solid rgba(72,215,255,.18);color:#bfeeff;padding:5px 8px;border-radius:999px;background:rgba(72,215,255,.045)}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:26px}.stat{border-top:1px solid var(--line);padding-top:12px}.stat strong{display:block;font-size:30px;color:#fff}.stat small{color:var(--muted)}.photo{width:100%;max-width:390px;border-radius:24px;border:1px solid rgba(72,215,255,.22);box-shadow:0 30px 100px rgba(0,0,0,.35)}.scene{height:470px;border:1px solid var(--line);border-radius:24px;position:relative;overflow:hidden;background:linear-gradient(180deg,#071322,#03070d)}.road{position:absolute;left:0;right:0;bottom:0;height:58%;background:linear-gradient(90deg,transparent 0 15%,rgba(255,255,255,.06) 15% 16%,transparent 16% 84%,rgba(255,255,255,.06) 84% 85%,transparent 85%),linear-gradient(180deg,#101b28,#05090f);transform:perspective(400px) rotateX(8deg);transform-origin:bottom}.road:after{content:"";position:absolute;left:49%;top:0;bottom:0;border-left:3px dashed rgba(255,255,255,.18)}.av{position:absolute;bottom:34px;left:50%;width:86px;height:150px;transform:translateX(-50%);border:2px solid #48d7ff;border-radius:20px;background:linear-gradient(180deg,#182e46,#07111d);box-shadow:0 0 40px rgba(72,215,255,.25);animation:drive 4s ease-in-out infinite}.av:before,.av:after{content:"";position:absolute;bottom:10px;width:16px;height:38px;background:#02050a;border-radius:5px}.av:before{left:-10px}.av:after{right:-10px}.lidarRing{position:absolute;left:50%;bottom:160px;width:220px;height:220px;transform:translateX(-50%);border:1px solid rgba(72,215,255,.3);border-radius:50%;animation:spin 7s linear infinite}.lidarRing:before{content:"";position:absolute;left:50%;top:50%;height:1px;width:50%;background:linear-gradient(90deg,transparent,#48d7ff);transform-origin:left;animation:sweep 2.4s linear infinite}.point{position:absolute;width:5px;height:5px;border-radius:50%;background:#48d7ff;box-shadow:0 0 12px #48d7ff;animation:blink 1.5s infinite}.box{position:absolute;border:2px solid #55e6b1;border-radius:5px;animation:float 2.5s ease-in-out infinite}.box b{position:absolute;top:-23px;left:-2px;font-size:10px;background:#55e6b1;color:#03100d;padding:2px 5px;border-radius:4px}.box.car1{left:17%;top:37%;width:75px;height:52px}.box.ped{right:15%;top:27%;width:30px;height:72px;animation-delay:.7s}.box.light{right:33%;top:13%;width:35px;height:48px;animation-delay:1.2s}.flow{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-top:24px}.node{position:relative}.node:not(:last-child):after{content:"→";position:absolute;right:-17px;top:32px;color:#48d7ff;font-size:20px}.node .icon{font-size:26px}.node strong{display:block;margin:6px 0}.pipeline{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;align-items:stretch}.pipeline .card{min-height:175px}.timeline{position:relative;margin-top:25px}.timeline:before{content:"";position:absolute;left:18px;top:0;bottom:0;width:2px;background:linear-gradient(#48d7ff,rgba(72,215,255,.05))}.timeitem{position:relative;padding-left:58px;margin:0 0 25px}.timeitem:before{content:"";position:absolute;left:11px;top:9px;width:16px;height:16px;border-radius:50%;background:#07101b;border:3px solid #48d7ff;box-shadow:0 0 18px rgba(72,215,255,.35)}.timeitem h3{margin:0 0 4px}.timeitem .date{color:#48d7ff;font-size:12px;font-weight:800}.footer{padding:35px 0 50px;color:#7f8da1;border-top:1px solid var(--line);font-size:12px}.pillnav{display:flex;gap:9px;flex-wrap:wrap;margin:20px 0}.pillnav a{padding:8px 12px;border:1px solid var(--line);border-radius:999px;color:#b9c8db;font-size:12px}.pillnav a:hover{border-color:#48d7ff;color:#fff}.miniScene{height:320px;border:1px solid var(--line);border-radius:22px;position:relative;overflow:hidden;background:#050b12}.carShape{position:absolute;width:74px;height:118px;border:2px solid #48d7ff;border-radius:18px;background:#102338;left:52%;bottom:25px;transform:translateX(-50%);animation:carMove 5s ease-in-out infinite}.traj{position:absolute;left:20%;top:35%;width:60%;height:45%;border-top:3px dashed #55e6b1;border-radius:50%;transform:rotate(-8deg);animation:pathPulse 2s infinite}.obj{position:absolute;left:23%;top:26%;font-size:28px;animation:objMove 5s ease-in-out infinite}.sensorBox{position:absolute;border:2px solid #55e6b1;border-radius:5px}.sensorBox.one{left:16%;top:18%;width:100px;height:70px}.sensorBox.two{right:13%;top:30%;width:48px;height:92px}.wave{position:absolute;left:8%;right:8%;bottom:25px;height:70px;background:repeating-linear-gradient(90deg,transparent 0 8px,rgba(72,215,255,.08) 8px 9px);border-bottom:1px solid rgba(72,215,255,.25)}.wave i{display:block;height:100%;width:100%;background:linear-gradient(90deg,transparent,rgba(72,215,255,.12),transparent);animation:wave 2.8s linear infinite}.codeflow{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:12px;color:#aeeaff;background:#03070d;border:1px solid var(--line);padding:16px;border-radius:14px;white-space:pre-wrap}.disclaimer{font-size:11px;color:#718198;margin-top:18px}.hideMobile{display:block}@keyframes pulse{70%{box-shadow:0 0 0 10px transparent}100%{box-shadow:0 0 0 0 transparent}}@keyframes spin{to{transform:translateX(-50%) rotate(360deg)}}@keyframes sweep{to{transform:rotate(360deg)}}@keyframes blink{50%{opacity:.15;transform:scale(.6)}}@keyframes float{50%{transform:translateY(-8px)}}@keyframes drive{50%{transform:translate(-50%,-12px)}}@keyframes carMove{50%{transform:translate(-50%,-12px)}}@keyframes objMove{50%{left:30%;top:34%}}@keyframes pathPulse{50%{opacity:.35}}@keyframes wave{from{transform:translateX(-100%)}to{transform:translateX(100%)}}@media(max-width:900px){.heroGrid,.grid3,.grid2{grid-template-columns:1fr}.pipeline,.flow{grid-template-columns:1fr}.node:not(:last-child):after{content:"↓";right:auto;left:50%;top:auto;bottom:-25px}.stats{grid-template-columns:repeat(2,1fr)}.navlinks{display:none}.scene{height:360px}.hero{padding-top:55px}}
+
+/* Automation-specific portfolio visuals */
+.autoVisual{height:320px;border:1px solid var(--line);border-radius:22px;position:relative;overflow:hidden;background:linear-gradient(180deg,#071322,#03070d);padding:24px}
+.autoFlow{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;align-items:center;height:100%}
+.autoNode{position:relative;min-height:118px;padding:16px 10px;border:1px solid rgba(72,215,255,.18);border-radius:15px;background:rgba(11,25,41,.92);display:flex;flex-direction:column;justify-content:center;text-align:center;box-shadow:0 12px 35px rgba(0,0,0,.2)}
+.autoNode:after{content:"→";position:absolute;right:-18px;top:43%;color:var(--cyan);font-size:22px;font-weight:800}
+.autoNode:last-child:after{display:none}
+.autoNode b{font-size:14px;color:#fff}.autoNode span{display:block;color:#91a8c2;font-size:11px;margin-top:5px;line-height:1.35}.autoIcon{font-size:25px;color:var(--cyan);margin-bottom:6px}
+.autoNode.active{border-color:rgba(72,215,255,.55);box-shadow:0 0 28px rgba(72,215,255,.10);animation:autoPulse 2.8s ease-in-out infinite}.autoNode:nth-child(2){animation-delay:.35s}.autoNode:nth-child(3){animation-delay:.7s}.autoNode:nth-child(4){animation-delay:1.05s}.autoNode:nth-child(5){animation-delay:1.4s}
+.autoFooter{position:absolute;left:24px;right:24px;bottom:18px;display:flex;justify-content:center;gap:8px;flex-wrap:wrap}.autoPill{font-size:10px;padding:5px 9px;border:1px solid rgba(72,215,255,.18);border-radius:999px;color:#bfeeff;background:rgba(72,215,255,.05)}
+.emailScene .autoNode:nth-child(5){border-color:rgba(85,230,177,.4)}
+.emailScene .autoNode:nth-child(5) .autoIcon{color:var(--green)}
+.dataRibbon{position:absolute;left:24px;right:24px;top:18px;display:flex;justify-content:center;gap:7px;flex-wrap:wrap}.dataRibbon span{font-size:9px;color:#9fb2c8;border:1px solid rgba(139,180,220,.15);padding:4px 7px;border-radius:7px;background:rgba(255,255,255,.025)}
+.performanceScene{padding:20px}.perfTop{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-bottom:15px}.metricChip{font-size:10px;padding:6px 8px;border:1px solid rgba(72,215,255,.2);border-radius:8px;color:#bfeeff;background:rgba(72,215,255,.04)}
+.perfPipeline{display:grid;grid-template-columns:1fr 1fr 1fr;gap:9px;align-items:center}.perfPanel{border:1px solid rgba(72,215,255,.18);border-radius:13px;padding:13px;background:rgba(10,22,37,.9);min-height:125px}.perfPanel h4{margin:0 0 9px;font-size:12px}.perfRow{height:9px;background:rgba(255,255,255,.06);border-radius:10px;margin:8px 0;overflow:hidden}.perfRow i{display:block;height:100%;width:72%;background:linear-gradient(90deg,#2f9cff,#48d7ff);animation:barMove 3s ease-in-out infinite}.perfRow:nth-child(3) i{width:56%;animation-delay:.4s}.perfRow:nth-child(4) i{width:39%;animation-delay:.8s}.signal{display:flex;align-items:center;gap:7px;margin:9px 0;font-size:10px;color:#a8b9cc}.signal em{width:8px;height:8px;border-radius:50%;display:block;background:var(--cyan);box-shadow:0 0 10px rgba(72,215,255,.45)}.signal.attn em{background:#ffcc66}.perfArrow{text-align:center;color:var(--cyan);font-size:20px}.actionBox{margin-top:12px;text-align:center;border:1px solid rgba(85,230,177,.22);color:#b9f4df;padding:8px;border-radius:9px;font-size:10px;background:rgba(85,230,177,.04)}
+.qualityScene{padding:20px}.statusLine{display:flex;justify-content:space-between;gap:7px;margin-bottom:15px}.statusPill{flex:1;text-align:center;padding:7px 4px;border-radius:8px;border:1px solid rgba(72,215,255,.18);font-size:9px;color:#9fb2c8;background:rgba(255,255,255,.025)}.statusPill.done{border-color:rgba(85,230,177,.35);color:#b9f4df}.reviewBoard{display:grid;grid-template-columns:1.05fr .95fr;gap:10px}.taskList,.decisionCard{border:1px solid rgba(72,215,255,.18);border-radius:13px;background:rgba(10,22,37,.9);padding:13px}.taskRow{display:grid;grid-template-columns:1fr auto;gap:8px;padding:8px 0;border-bottom:1px solid rgba(255,255,255,.06);font-size:10px;color:#aebed0}.taskRow:last-child{border-bottom:0}.decisionBtns{display:flex;gap:6px;margin-top:10px}.decisionBtns span{flex:1;text-align:center;padding:6px 3px;border-radius:7px;border:1px solid rgba(139,180,220,.15);font-size:9px}.evidence{margin-top:10px;padding:7px;border:1px dashed rgba(72,215,255,.25);border-radius:8px;font-size:9px;color:#9fb2c8}.completeBadge{margin-top:10px;text-align:center;color:#b9f4df;font-size:9px}
+.formsScene{padding:20px}.formsGrid{display:grid;grid-template-columns:1fr 42px 1fr;gap:10px;align-items:center;height:100%}.formPanel,.drivePanel{border:1px solid rgba(72,215,255,.18);border-radius:13px;background:rgba(10,22,37,.9);padding:14px;min-height:205px}.formTitle{font-size:12px;font-weight:800;margin-bottom:10px}.field{height:28px;border:1px solid rgba(139,180,220,.15);border-radius:7px;margin:7px 0;padding:6px 8px;font-size:9px;color:#8499b0}.field.upload{border-style:dashed;color:#48d7ff}.validate{margin-top:9px;padding:6px;border-radius:7px;background:rgba(72,215,255,.05);border:1px solid rgba(72,215,255,.18);font-size:9px;text-align:center;color:#bfeeff}.formArrow{text-align:center;font-size:23px;color:var(--cyan);animation:arrowPulse 1.8s infinite}.driveIcon{font-size:34px;text-align:center;color:var(--green);margin:12px 0}.driveLine{height:8px;background:rgba(255,255,255,.06);border-radius:8px;margin:8px 0}.driveLink{margin-top:12px;padding:7px;border:1px solid rgba(85,230,177,.2);border-radius:7px;font-size:9px;color:#b9f4df;text-align:center}
+.revenueScene{padding:20px}.revenueFlow{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;align-items:center;height:100%}.revStep{border:1px solid rgba(72,215,255,.18);border-radius:12px;padding:12px 7px;text-align:center;background:rgba(10,22,37,.9);min-height:135px;display:flex;flex-direction:column;justify-content:center}.revStep b{font-size:11px}.revStep span{font-size:9px;color:#8fa4bb;margin-top:6px}.revStep .autoIcon{font-size:22px}.revStep:nth-child(4){border-color:rgba(255,204,102,.3)}.revStep:nth-child(5){border-color:rgba(85,230,177,.3)}.revArrow{text-align:center;color:var(--cyan);font-size:18px}.varianceBars{margin-top:10px}.varianceBars i{display:block;height:7px;border-radius:7px;background:linear-gradient(90deg,#2f9cff,#48d7ff);margin:6px 0;width:78%;animation:barMove 3s ease-in-out infinite}.varianceBars i:nth-child(2){width:48%;animation-delay:.5s}
+.liveScene{padding:18px}.liveGrid{display:grid;grid-template-columns:1.25fr .75fr;gap:10px;height:100%}.worklogPanel,.livePanel{border:1px solid rgba(72,215,255,.18);border-radius:13px;background:rgba(10,22,37,.9);padding:12px}.tableHead,.tableRow{display:grid;grid-template-columns:1.1fr .8fr .8fr .8fr;gap:5px;font-size:9px;align-items:center}.tableHead{color:#6f8299;padding-bottom:7px;border-bottom:1px solid rgba(255,255,255,.07)}.tableRow{padding:8px 0;color:#aebed0;border-bottom:1px solid rgba(255,255,255,.045)}.tableRow b{color:#d9e6f4}.liveBadge{display:inline-block;font-size:8px;color:#b9f4df;border:1px solid rgba(85,230,177,.25);border-radius:999px;padding:3px 6px;margin-bottom:10px}.trend{height:80px;position:relative;margin-top:8px;overflow:hidden}.trend svg{width:100%;height:100%}.trend path{fill:none;stroke:#48d7ff;stroke-width:2;stroke-dasharray:6 5;animation:dash 4s linear infinite}.attention{font-size:9px;color:#9fb2c8;margin-top:7px}.attention b{color:#fff}
+@keyframes autoPulse{50%{transform:translateY(-4px);box-shadow:0 0 28px rgba(72,215,255,.18)}}@keyframes barMove{50%{transform:translateX(6px);opacity:.75}}@keyframes arrowPulse{50%{transform:translateX(5px);opacity:.55}}@keyframes dash{to{stroke-dashoffset:-60}}
+@media(max-width:900px){.autoFlow,.revenueFlow{grid-template-columns:1fr}.autoNode:after{content:"↓";right:auto;left:50%;top:auto;bottom:-25px}.autoNode:last-child:after{display:none}.perfPipeline,.reviewBoard,.formsGrid,.liveGrid{grid-template-columns:1fr}.perfArrow{transform:rotate(90deg)}.formArrow{transform:rotate(90deg)}.revArrow{display:none}.statusLine{overflow:auto}.statusPill{min-width:82px}}
+  </style>
+ </head>
+ <body>
+  <nav class="nav">
+   <div class="wrap navin">
+    <a class="brand" href="/">
+     <i>
+      JT
+     </i>
+     · AI Data &amp; Operations
+    </a>
+    <div class="navlinks">
+     <a class="" href="/">
+      Home
+     </a>
+     <a class="" href="/experience/">
+      Experience
+     </a>
+     <a class="" href="/projects/">
+      Projects
+     </a>
+     <a class="active" href="/automation/">
+      Automation
+     </a>
+     <a class="" href="/skills/">
+      Skills
+     </a>
+     <a class="" href="/#contact">
+      Contact
+     </a>
+    </div>
+   </div>
+  </nav>
+  <main>
+   <section class="hero">
+    <div class="wrap">
+     <div class="kicker">
+      WEB WORKFLOW · QUALITY
+     </div>
+     <h1>
+      Task Quality Review Portal
+     </h1>
+     <p class="lead">
+      Designed a web-based task quality workflow connecting assignment, review, evidence and completion visibility.
+     </p>
+    </div>
+   </section>
+   <section class="section">
+    <div class="wrap">
+     <div class="grid grid2">
+      <div>
+       <div class="autoVisual qualityScene">
+        <div class="statusLine">
+         <span class="statusPill done">
+          Assigned
+         </span>
+         <span class="statusPill done">
+          My Tasks
+         </span>
+         <span class="statusPill">
+          Review
+         </span>
+         <span class="statusPill">
+          Decision
+         </span>
+         <span class="statusPill">
+          Evidence
+         </span>
+         <span class="statusPill done">
+          Completed
+         </span>
+        </div>
+        <div class="reviewBoard">
+         <div class="taskList">
+          <div class="tableHead">
+           <span>
+            Task ID
+           </span>
+           <span>
+            Reviewer
+           </span>
+           <span>
+            Status
+           </span>
+           <span>
+            Week
+           </span>
+          </div>
+          <div class="taskRow">
+           <b>
+            TASK
+           </b>
+           <span>
+            Assigned
+           </span>
+           <span>
+            Pending
+           </span>
+           <span>
+            Wk
+           </span>
+          </div>
+          <div class="taskRow">
+           <b>
+            TASK
+           </b>
+           <span>
+            Review
+           </span>
+           <span>
+            Open
+           </span>
+           <span>
+            Wk
+           </span>
+          </div>
+          <div class="taskRow">
+           <b>
+            TASK
+           </b>
+           <span>
+            Completed
+           </span>
+           <span>
+            Done
+           </span>
+           <span>
+            Wk
+           </span>
+          </div>
+         </div>
+         <div class="decisionCard">
+          <b style="font-size:12px">
+           Review decision
+          </b>
+          <div class="decisionBtns">
+           <span>
+            Agree
+           </span>
+           <span>
+            Disagree
+           </span>
+           <span>
+            Uncertain
+           </span>
+          </div>
+          <div class="evidence">
+           Note + evidence link
+          </div>
+          <div class="completeBadge">
+           ✓ Review history updated
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div>
+       <div class="card">
+        <h3>
+         Workflow
+        </h3>
+        <p class="muted">
+         Assigned → Review → Decision → Evidence → Completed → Review History.
+        </p>
+       </div>
+       <div class="card">
+        <h3>
+         Dashboard
+        </h3>
+        <p class="muted">
+         Assigned, pending and completed counts with week and Team Lead filters.
+        </p>
+       </div>
+       <div class="card">
+        <h3>
+         Review data
+        </h3>
+        <p class="muted">
+         Task ID, reviewer decision, notes and evidence links were tied back to the operational sheet.
+        </p>
+       </div>
+       <div class="card">
+        <h3>
+         Design ownership
+        </h3>
+        <p class="muted">
+         Independently designed the workflow, UI structure, data model and operational logic; Apps Script/backend pieces were collaborative.
+        </p>
+       </div>
+      </div>
+     </div>
+     <p class="disclaimer">
+      Conceptual animation for portfolio communication. It illustrates the type of workflow described by Jatin and does not reproduce proprietary client interfaces or data.
+     </p>
+    </div>
+   </section>
+  </main>
+  <footer class="footer">
+   <div class="wrap">
+    © 2026 Jatin Tantubay · AI Data &amp; Operations Team Lead · Bengaluru, India
+   </div>
+  </footer>
+ </body>
+</html>
